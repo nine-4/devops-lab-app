@@ -196,11 +196,27 @@ devops-lab-gitops
 
 This separation keeps application code, infrastructure, and deployment state independently versioned.
 
+## Relevant Project Milestones
+
+```text
+Milestone 3
+Spring Boot application foundation
+
+Milestone 4
+Git/GitHub application repository established
+
+Milestone 5
+Application containerized and verified locally
+```
+
+These milestones establish the application artifact that later infrastructure, CI, and GitOps stages build and promote.
+
 ## Current Status
 
 Completed:
 
 * Spring Boot application foundation
+* Git/GitHub application repository established
 * Runtime version/environment configuration
 * Actuator health endpoint
 * Maven build and test verification
@@ -215,7 +231,7 @@ Planned:
 * SonarQube integration
 * Trivy scanning
 * DEV/UAT/PROD artifact promotion
-* GitOps repository
+* GitOps integration using the `devops-lab-gitops` repository
 * Argo CD deployment
 * Kubernetes health probes
 * Monitoring and alerting
